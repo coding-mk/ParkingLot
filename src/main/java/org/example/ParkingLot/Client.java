@@ -14,7 +14,7 @@ import org.example.ParkingLot.Service.TicketService;
 public class Client {
     public static void main(String[] args) {
         IssueTicketRequestDto requestDto = new IssueTicketRequestDto();
-        requestDto.setGateId(123L);
+        requestDto.setGateId(32L);
         requestDto.setVehicleType(VehicleType.SUV);
         requestDto.setVehicleNumber("KA12X6789");
         requestDto.setVehicleOwnerName("Krithi");
